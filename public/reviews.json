@@ -1,0 +1,44 @@
+[
+    {
+      "id": "620",
+      "image": "./review users/profile_user-1.jpg",
+      "name": "Luis Villalobos",
+      "review": "My first MacBook ever! I had been saving up for it before the official drop— & I was not disappointed! Love the Touch ID feature, and it’s so efficient! Can’t wait to use it when I go back to school!",
+      "ratings": 5
+    },
+    {
+      "id": "629",
+      "image": "./review users/profile_user-2.jpg",
+      "name": "Harleen Deol",
+      "review": "The upgrade from my 2014 MacBook Pro was easy, as one expects from Apple. The new display is noticeably brighter. My zoom meetings look like I'm in a brighter space. I bought a USB-C (thunderbolt 3) to USB adaptor so I could use my old Time Machine drive. Although I moved from a 15 inch display down to a 14 inch display, the smaller size is no problem, perhaps because the colors are so bright.",
+      "ratings": 5
+    },
+    {
+      "id": "638",
+      "image": "./review users/profile_user-3.jpg",
+      "name": "Cody",
+      "review": "This MacBook is assume. A bit of a challenge learning their OS after 15 years on windows but it was worth the buy. The M1 is powerful and does heavy 4k video rendering without getting warm. This blows away anything Intel has. It runs Microsoft 365 so all my files are available on one drive. The video screen is assume and perfect colors. Do yourself a favor. Buy this you won't be disappointed.",
+      "ratings": 5
+    },
+    {
+      "id": "644",
+      "image": "./review users/profile_user-4.jpg",
+      "name": "Charlotte Smith",
+      "review": "To be very fair any laptop would have been a upgrade for me. Haven't purchased one since 2014. But this MacBook in the 14 inch is great. Ready to use it to it's full potential. Also ready for more options of cases and sleeves to be available.",
+      "ratings": 5
+    },
+    {
+      "id": "651",
+      "image": "./review users/profile_user-5.jpg",
+      "name": "Christine Q.",
+      "review": "It is small, light, and fast. Has an excellent screen. And for such a small light computer I do like all the ports that it has. Of course I had to get all new cables/adapters since none of the ports on my old MacBook Pro matched. This MacBook has no USB A port, so you will need an adapter to read that stack of USB flash drives that you have, or that friends and colleagues send you. But I do prefer the Thunderbolt 4 ports to USB.",
+      "ratings": 5
+    },
+    {
+      "id": "666",
+      "image": "./review users/profile_user-6.jpg",
+      "name": "Clara Del",
+      "review": "Although it’s taking me several weeks to get all the “ducks in a row” and transfer all my stuff from my 2012 iMac, this machine is phenomenal. It does things differently, but way more efficiently. I really love it. Welcome to a new decade.",
+      "ratings": 5
+    }
+  ]
