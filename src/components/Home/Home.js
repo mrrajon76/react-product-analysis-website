@@ -56,7 +56,7 @@ const Home = () => {
                 <Reviews></Reviews>
                 <button className='bg-amber-500 text-white font-medium uppercase py-4 px-12 rounded-md hover:bg-slate-700'><Link to="/reviews">See All Reviews</Link></button>
             </section>
-            <section className='mt-16'>
+            <section className='mx-28 mt-16'>
                 <h5 className='text-2xl font-medium text-amber-500'>Some Views of MacBook Pro</h5>
                 <h3 className='text-5xl font-bold'>Gallery</h3>
                 <Gallery></Gallery>
