@@ -8,8 +8,8 @@ import Gallery from '../Gallery/Gallery';
 
 const Home = () => {
     return (
-        <div className='mx-28 mt-10'>
-            <section className="grid grid-cols-2">
+        <div className='my-10'>
+            <section className="mx-28 grid grid-cols-2">
                 <div className="text-container flex items-center">
                     <div className='text-left'>
                         <h1 className='text-7xl font-extrabold'>MacBook Pro</h1>
@@ -24,7 +24,7 @@ const Home = () => {
                     <img src={heroImage} alt="" className='w-9/12' />
                 </div>
             </section>
-            <section className="mt-16">
+            <section className="mx-28 mt-16">
                 <h5 className='text-2xl font-medium text-amber-500'>Inside MacBook Pro</h5>
                 <h3 className='text-5xl font-bold mt-2'>Pro to the <span className='text-amber-500'>Max</span></h3>
                 <div className="grid grid-cols-2 gap-14 mt-10">
@@ -54,6 +54,7 @@ const Home = () => {
                 <h5 className='text-2xl font-medium text-amber-500'>What Customer Says!</h5>
                 <h3 className='text-5xl font-bold'>Reviews</h3>
                 <Reviews></Reviews>
+                <button className='bg-amber-500 text-white font-medium uppercase py-4 px-12 rounded-md hover:bg-slate-700'><Link to="/reviews">See All Reviews</Link></button>
             </section>
             <section className='mt-16'>
                 <h5 className='text-2xl font-medium text-amber-500'>Some Views of MacBook Pro</h5>
