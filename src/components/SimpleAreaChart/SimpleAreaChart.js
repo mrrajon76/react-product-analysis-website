@@ -6,7 +6,7 @@ const SimpleAreaChart = () => {
     const [data] = useChart();
 
     return (
-        <div className='mx-auto'>
+        <div>
             <AreaChart
                 width={500}
                 height={300}

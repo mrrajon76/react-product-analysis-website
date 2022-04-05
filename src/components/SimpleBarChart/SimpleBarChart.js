@@ -6,7 +6,7 @@ const SimpleBarChart = () => {
     const [data] = useChart();
 
     return (
-        <div className='mx-auto'>
+        <div>
             <BarChart
                 width={500}
                 height={300}

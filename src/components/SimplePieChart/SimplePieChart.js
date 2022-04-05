@@ -6,7 +6,7 @@ const SimplePieChart = () => {
     const [data] = useChart();
 
     return (
-        <div className='mx-auto'>
+        <div>
             <PieChart
                 width={500}
                 height={300}>
