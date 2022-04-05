@@ -9,7 +9,8 @@
 - Added 404 not found page
 - Used React Rating & HeroIcons to show the review ratings. For the review data, created a json file and used custom hook to load that
 - Used Conditional Rendering to show 3 reviews on homepage using the same component of Review page
-- Used Rechart for all the charts of this project. For processing the chart data from the provided data.json file, used custom hook.
+- Used Rechart for all the charts of this project. For processing the chart data from the provided data.json file, used custom hook
+- The whole site is device-friendly except the charts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

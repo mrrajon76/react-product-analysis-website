@@ -9,25 +9,25 @@ import Gallery from '../Gallery/Gallery';
 const Home = () => {
     return (
         <div className='mt-16 mb-12'>
-            <section className="mx-28 grid grid-cols-2">
-                <div className="text-container flex items-center">
-                    <div className='text-left'>
-                        <h1 className='text-7xl font-extrabold'>MacBook Pro</h1>
-                        <h3 className='mt-3 text-5xl font-semibold text-amber-500'>Supercharged for pros..</h3>
+            <section className="mx-5 md:mx-12 lg:mx-28 grid grid-cols-1 md:grid-cols-3">
+                <div className="col-span-2 order-2 md:order-1 md:mr-10 lg:mr-[6rem] text-container flex items-center">
+                    <div className='text-center md:text-left'>
+                        <h1 className='text-6xl lg:text-7xl font-extrabold'>MacBook Pro</h1>
+                        <h3 className='mt-3 text-4xl lg:text-5xl font-semibold text-amber-500'>Supercharged for pros..</h3>
                         <p className='mt-7 text-lg'>The most powerful MacBook Pro ever is here. With the blazing-fast M1 Pro or M1 Max chip — the first Apple silicon designed
                             for pros — you get groundbreaking performance and amazing battery life. Add to that a stunning Liquid Retina XDR display, the best camera and audio ever in a Mac notebook,
                             and all the ports you need. The first notebook of its kind, this MacBook Pro is a beast.</p>
                         <button className='bg-amber-500 text-white font-medium uppercase py-4 px-12 mt-6 rounded-md hover:bg-slate-700'><Link to="/specifications">Specifications</Link></button>
                     </div>
                 </div>
-                <div className="image-container flex justify-end">
-                    <img src={heroImage} alt="" className='w-9/12' />
+                <div className="mb-4 md:mb-0 order-1 md:order-2 md:flex items-center">
+                    <img src={heroImage} alt="" className='w-full' />
                 </div>
             </section>
-            <section className="mx-28 mt-16">
+            <section className="mx-5 md:mx-12 lg:mx-28 mt-16">
                 <h5 className='text-2xl font-medium text-amber-500'>Inside MacBook Pro</h5>
                 <h3 className='text-5xl font-bold mt-2'>Pro to the <span className='text-amber-500'>Max</span></h3>
-                <div className="grid grid-cols-2 gap-14 mt-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap:10 md:gap-14 mt-10">
                     <div className="py-8 shadow-2xl shadow-slate-300 rounded-lg">
                         <img src={m1pro} alt="" className='w-60 block mx-auto' />
                         <h4 className='text-3xl font-bold text-amber-500 mt-4'>Scary fast.</h4>
@@ -56,7 +56,7 @@ const Home = () => {
                 <Reviews>3</Reviews>
                 <button className='bg-amber-500 text-white font-medium uppercase py-4 px-12 rounded-md hover:bg-slate-700'><Link to="/reviews">See All Reviews</Link></button>
             </section>
-            <section className='mx-28 mt-16'>
+            <section className='mx-5 md:mx-12 lg:mx-28 mt-16'>
                 <h5 className='text-2xl font-medium text-amber-500'>Some Views of MacBook Pro</h5>
                 <h3 className='text-5xl font-bold'>Gallery</h3>
                 <Gallery></Gallery>

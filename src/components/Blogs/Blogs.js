@@ -2,16 +2,15 @@ import React from 'react';
 import q1 from '../../images/q1.jpg';
 import q2 from '../../images/q2.jpg';
 import q3 from '../../images/q3.jpg';
-import './Blogs.css'
 
 const Blogs = () => {
     return (
-        <div className='mx-28 mt-16 mb-12'>
-            <section className="question-container shadow-lg shadow-slate-300">
-                <div className="image">
+        <div className='mx-5 md:mx-12 lg:mx-28 my-12 lg:mt-16'>
+            <section className="grid grid-cols-1 md:grid-cols-3 shadow-lg shadow-slate-300">
+                <div className="my-0 md:my-5 lg:my-0">
                     <img src={q1} alt="" />
                 </div>
-                <div className="text-left px-12 flex items-center">
+                <div className="md:col-span-2 text-left p-5 lg:px-10 lg:flex lg:items-center">
                     <div>
                         <h3 className="text-3xl font-semibold text-amber-500">What is Context API?</h3>
                         <p className="mt-3">React Context API is a React structure that provides us a way to pass data through the component tree without passing
@@ -24,11 +23,11 @@ const Blogs = () => {
                     </div>
                 </div>
             </section>
-            <section className="question-container shadow-lg shadow-slate-300 mt-12">
-                <div className="image">
+            <section className="grid grid-cols-1 md:grid-cols-3 shadow-lg shadow-slate-300 mt-12">
+                <div className="my-0 md:my-5 lg:my-0">
                     <img src={q3} alt="" />
                 </div>
-                <div className="text-left px-12 flex items-center">
+                <div className="md:col-span-2 text-left p-5 lg:px-10 lg:flex lg:items-center">
                     <div>
                         <h3 className="text-3xl font-semibold text-amber-500">What is Semantic tags?</h3>
                         <p className="mt-3">The Semantic tags clearly define the purpose of the element and what is inside the element to both the browser and developer.
@@ -40,11 +39,11 @@ const Blogs = () => {
                     </div>
                 </div>
             </section>
-            <section className="question-container shadow-lg shadow-slate-300 mt-12">
-                <div className="image">
+            <section className="grid grid-cols-1 md:grid-cols-3 shadow-lg shadow-slate-300 mt-12">
+                <div className="my-0 md:my-5 lg:my-0">
                     <img src={q2} alt="" />
                 </div>
-                <div className="text-left px-12 flex items-center">
+                <div className="md:col-span-2 text-left p-5 lg:px-10 lg:flex lg:items-center">
                     <div>
                         <h3 className="text-3xl font-semibold text-amber-500">What are the difference between Block, Inline & Inline-Block?</h3>
                         <p className="mt-3">Block, Inline & Inline-block are the display properties of CSS. These properties specify the display behavior of an element.

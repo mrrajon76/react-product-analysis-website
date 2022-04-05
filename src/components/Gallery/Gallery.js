@@ -11,7 +11,7 @@ const Gallery = () => {
     }, []);
 
     return (
-        <div className='grid grid-cols-3 gap-10 mt-10'>
+        <div className='grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 mt-10'>
             {
                 images.map(image => <GalleryCard item={image} key={image.id}></GalleryCard>)
             }
