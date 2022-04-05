@@ -29,7 +29,7 @@ const Home = () => {
                 <h3 className='text-5xl font-bold mt-2'>Pro to the <span className='text-amber-500'>Max</span></h3>
                 <div className="grid grid-cols-2 gap-14 mt-10">
                     <div className="py-8 shadow-2xl shadow-slate-300 rounded-lg">
-                        <img src={m1pro} alt="" className='w-64 block mx-auto' />
+                        <img src={m1pro} alt="" className='w-60 block mx-auto' />
                         <h4 className='text-3xl font-bold text-amber-500 mt-4'>Scary fast.</h4>
                         <p className='mt-3 text-lg'>Up to 10-core CPU<br />
                             Up to 16-core GPU<br />
@@ -37,7 +37,7 @@ const Home = () => {
                             Up to 200GB/s memory bandwidth</p>
                     </div>
                     <div className="py-8 shadow-2xl shadow-slate-300 rounded-lg">
-                        <img src={m1max} alt="" className='w-64 block mx-auto' />
+                        <img src={m1max} alt="" className='w-60 block mx-auto' />
                         <h4 className='text-3xl font-bold text-amber-500 mt-4'>Scary faster.</h4>
                         <p className='mt-3 text-lg'>10-core CPU<br />
                             Up to 32-core GPU<br />
@@ -53,7 +53,7 @@ const Home = () => {
             <section className='mt-16'>
                 <h5 className='text-2xl font-medium text-amber-500'>What Customer Says!</h5>
                 <h3 className='text-5xl font-bold'>Reviews</h3>
-                <Reviews></Reviews>
+                <Reviews>3</Reviews>
                 <button className='bg-amber-500 text-white font-medium uppercase py-4 px-12 rounded-md hover:bg-slate-700'><Link to="/reviews">See All Reviews</Link></button>
             </section>
             <section className='mx-28 mt-16'>

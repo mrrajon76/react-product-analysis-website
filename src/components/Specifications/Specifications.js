@@ -85,7 +85,7 @@ const Specifications = () => {
                         <th className='text-amber-500 text-lg py-3 px-5'>Audio Jack Combo</th>
                         <td className='py-3 px-5'>1 x 3.5 mm headphone jack</td>
                     </tr>
-                    <tr className=''>
+                    <tr className='bg-slate-100'>
                         <th className='text-amber-500 text-lg py-3 px-5'>Dimensions (W x D x H)</th>
                         <td className='py-3 px-5'>Width: 31.26 cm (12.31 inches) x Depth: 22.12 cm (8.71 inches) x Height: 1.55 cm (0.61 inch)</td>
                     </tr>
