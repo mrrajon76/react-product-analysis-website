@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Getting Started with Product Analysis - MacBook Pro application
+
+## Let's check out the [Product Analysis - MacBook Pro application](https://macbook-pro-product-analysis.netlify.app/)
+
+## Some cool features of this project
+
+- In this project I have used one of the most popular CSS framework, 'Tailwind CSS'
+- Used React Routing for easy navigation
+- Added 404 not found page
+- Used React Rating & HeroIcons to show the review ratings. For the review data, created a json file and used custom hook to load that
+- Used Conditional Rendering to show 3 reviews on homepage using the same component of Review page
+- Used Rechart for all the charts of this project. For processing the chart data from the provided data.json file, used custom hook.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
