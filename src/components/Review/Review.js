@@ -1,5 +1,5 @@
 import React from 'react';
-import { StarIcon } from '@heroicons/react/solid'
+import { StarIcon } from '@heroicons/react/solid';
 import Rating from 'react-rating';
 
 const Review = ({ data }) => {

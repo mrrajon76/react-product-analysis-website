@@ -6,7 +6,7 @@ const SimpleLineChart = () => {
     const [data] = useChart();
 
     return (
-        <div className='mx-auto'>
+        <div>
             <LineChart
                 width={500}
                 height={300}

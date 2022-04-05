@@ -8,7 +8,7 @@ import Gallery from '../Gallery/Gallery';
 
 const Home = () => {
     return (
-        <div className='my-10'>
+        <div className='mt-16 mb-12'>
             <section className="mx-28 grid grid-cols-2">
                 <div className="text-container flex items-center">
                     <div className='text-left'>
