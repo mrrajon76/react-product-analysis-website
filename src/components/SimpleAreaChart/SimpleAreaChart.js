@@ -16,7 +16,7 @@ const SimpleAreaChart = () => {
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Area type="monotone" dataKey="investment" stroke="#81CA1B" fill="#81CA1B" activeDot={{ r: 8 }} />
+                <Area type="monotone" dataKey="investment" stroke="#81CA1B" fill="#81CA1B" />
                 <Area type="monotone" dataKey="sell" stroke="#793DED" fill="#793DED" />
                 <Area type="monotone" dataKey="revenue" stroke="#F59E0B" fill="#F59E0B" />
             </AreaChart>
